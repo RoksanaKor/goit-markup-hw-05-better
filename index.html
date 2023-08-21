@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewbox" content="width=device-width, initial-scale=1.0">
+ <title>Web Studio-Main Page</title>
+ <link href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="css/styles.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+ <header class="header-border">
+  <div class="container">
+   <nav class="nav-header">
+    <a href="./" rel="noreferrer noopener" class="logo"><span class="logo-web-font">web</span><span class="logo-studio-font">studio</span></a>
+    <ul class="nav-menu">
+     <li>
+      <a href="./index.html" rel="noreferrer noopener" class="nav-menu-item nav-menu-active">Studio</a>
+     </li>
+     <li>
+      <a href="./portfolio.html" rel="noreferrer noopener" class="nav-menu-item">Portfolio</a>
+     </li>
+     <li>
+      <a href="/contacts" target="_blank" rel="noreferrer noopener" class="nav-menu-item">Contacts</a>
+     </li>
+    </ul>
+   </nav>
+   <address>
+    <ul class="address-list">
+     <li>
+      <a class="text-contacts" href="mailto:info@devstudio.com" target="_blank" rel="noreferrer noopener">info@devstudio.com</a>
+     </li>
+     <li>
+      <a class="text-contacts" href="tel:+110001111111" target="_blank" rel="noreferrer noopener">+11 (000) 111-11-11</a>
+     </li>
+    </ul>
+   </address>
+  </div>
+ </header>
+
+ <main>
+  <section class="h1-section">
+   <div class="container">
+    <div class="column-container">
+     <h1 class="text-h1-first">
+      Effective Solutions
+      for Your Business
+     </h1>
+     <button type="button" class="button-order-service" data-modal-open>Order service</button>
+     <div class="modal is-hidden" data-modal>
+      <div class="modal-body">
+        <button class="modal-button" data-modal-close>
+          <svg class="icon-modal-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-modal-close"></use>
+          </svg>
+        </button>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+
+
+  <section class="company-values">
+   <div class="container">
+    <h2 class="visually-hidden"></h2>
+    <ul class="company-values-list">
+     <li class="company-values-list-element">
+      <div class="icon-wrapper-company-values">
+        <svg class="icon" width="64" height="64" viewbox="0 0 64 64">
+          <use href="./images/icons.svg#icon-antenna-1"></use>
+         </svg>
+      </div>
+      <h3 class="text-h3">Strategy</h3>
+      <p class="text-body">
+      Our goal is to identify the business
+      problem to walk away with the 
+      perfect and creative solution.
+      </p>
+     </li>
+     <li class="company-values-list-element">
+      <div class="icon-wrapper-company-values">
+       <svg width="64" height="64" viewbox="0 0 64 64">
+        <use href="./images/icons.svg#icon-clock-1"></use>
+       </svg>
+      </div>
+      <h3 class="text-h3">Punctuality</h3>
+      <p class="text-body">
+      Bring the key message to the 
+      brand's audience for the best price 
+      within the shortest possible time.
+      </p>
+     </li>
+     <li class="company-values-list-element">
+      <div class="icon-wrapper-company-values">
+       <svg width="64" height="64" viewbox="0 0 64 64">
+        <use href="./images/icons.svg#icon-diagram-1"></use>
+       </svg>
+      </div>
+      <h3 class="text-h3">Diligence</h3>
+      <p class="text-body">
+      Research and confirm brands that 
+      present the strongest digital growth 
+      opportunities and minimize risk.
+      </p> 
+     </li>
+     <li class="company-values-list-element">
+      <div class="icon-wrapper-company-values">
+       <svg width="64" height="64" viewbox="0 0 64 64">
+        <use href="./images/icons.svg#icon-astronaut-1"></use>
+       </svg>
+      </div>
+      <h3 class="text-h3">Technologies</h3>
+      <p class="text-body">
+      Design practice focused on digital 
+      experiences. We bring forth a deep 
+      passion for problem-solving.
+      </p>
+     </li>
+    </ul>
+   </div>
+  </section>
+  <section class="company-activities">
+   <div class="container">
+    <div class="column-container">
+     <h2 class="text-h2">What Are We Doing</h2>
+     <ul class="company-activities-list">    
+      <li class="company-activities-element">
+       <img src="images/hw-01/laptop.jpg" alt="monitor with active webpage" width="360" height="300" />
+      </li>
+      <li class="company-activities-element">
+       <img src="images/hw-01/jumpingscreen.jpg" alt="three screens with opened whatsapp jumping out of smartphone" width="360" height="300" />
+      </li>
+      <li class="company-activities-element">
+       <img src="images/hw-01/smartphonehand.jpg" alt="hand holding smathphone with opened article against the background of laptop, bottle of water, plants and cup of coffee" width="360" height="300" />
+      </li>
+     </ul>
+    </div>
+   </div>
+  </section>
+  <section class="our-team-section">
+   <div class="container">
+    <div class="column-container">
+     <h2 class="text-h2">Our Team</h2>
+     <ul class="our-team-list">
+      <li class="our-team-list-element">
+       <img src="images/hw-01/beardedman.jpg" alt="elegant smiling bearded brunette man" width="264" height="260" />
+       <div class="worker-wrapper">
+        <h3 class="text-h3-center">Mark Guerrero</h3>
+        <p class="text-body-center">Product Designer</p>
+        <div class="icon-wrapper-our-team">
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-instagram-2-1"></use>
+            </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-twitter-1-1"></use>
+             </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-facebook-1-1"></use>
+             </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+             </svg>
+          </div>
+        </div>
+       </div>
+      </li>
+      <li class="our-team-list-element">
+       <img src="images/hw-01/smiley.jpg" alt="happy elegant young man looking left" width="264" height="260" />
+       <div class="worker-wrapper">
+        <h3 class="text-h3-center">Tom Ford</h3>
+        <p class="text-body-center">Frontend Developer</p>
+        <div class="icon-wrapper-our-team">
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-instagram-2-1"></use>
+            </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-twitter-1-1"></use>
+             </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-facebook-1-1"></use>
+             </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+             </svg>
+          </div>
+        </div>
+       </div>
+      </li>
+      <li class="our-team-list-element">
+       <img src="images/hw-01/pinkgirl.jpg" alt="smiling young girl with long brown hair wearing pink sweater" width="264" height="260" />
+       <div class="worker-wrapper">
+        <h3 class="text-h3-center">Camila Garcia</h3>
+        <p class="text-body-center">Marketing</p>
+        <div class="icon-wrapper-our-team">
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-instagram-2-1"></use>
+            </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-twitter-1-1"></use>
+             </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-facebook-1-1"></use>
+             </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+             </svg>
+          </div>
+        </div>
+       </div>
+      </li>
+      <li class="our-team-list-element">
+       <img src="images/hw-01/beardedboy.jpg" alt="happy casually dressed young brunette bearded man" width="264" height="260" />
+       <div class="worker-wrapper">
+        <h3 class="text-h3-center">Daniel Wilson</h3>
+        <p class="text-body-center">UI Designer</p>
+        <div class="icon-wrapper-our-team">
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-instagram-2-1"></use>
+            </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-twitter-1-1"></use>
+             </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-facebook-1-1"></use>
+             </svg>
+          </div>
+          <div class="circle">
+            <svg width="16" height="16" viewbox="0 0 16 16" class="icon-our-team">
+              <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+             </svg>
+          </div>
+        </div>
+       </div>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </section>
+  <section class="customers">
+   <div class="container">
+    <div class="column-container">
+     <h2 class="text-h2">Customers</h2>
+     <ul class="customers-list">
+      <li class="customers-list-element">
+       <svg class="customers-icon" width="104" height="56" viewbox="0 0 104 56">
+        <use href="./images/icons.svg#icon-Logo"></use>
+       </svg>
+      </li>
+      <li class="customers-list-element">
+       <svg class="customers-icon" width="104" height="56" viewbox="0 0 104 56">
+        <use href="./images/icons.svg#icon-Logo-1"></use>
+       </svg>
+      </li>
+      <li class="customers-list-element">
+       <svg class="customers-icon" width="104" height="56" viewbox="0 0 104 56">
+        <use href="./images/icons.svg#icon-Logo-2"></use>
+       </svg>
+      </li>
+      <li class="customers-list-element">
+       <svg class="customers-icon" width="104" height="56" viewbox="0 0 104 56">
+        <use href="./images/icons.svg#icon-Logo-3"></use>
+       </svg>
+      </li>
+      <li class="customers-list-element">
+       <svg class="customers-icon" width="104" height="56" viewbox="0 0 104 56">
+        <use href="./images/icons.svg#icon-Logo-4"></use>
+       </svg>
+      </li>
+      <li class="customers-list-element">
+       <svg class="customers-icon" width="104" height="56" viewbox="0 0 104 56">
+        <use href="./images/icons.svg#icon-Logo-5"></use>
+       </svg>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </section>
+ </main>
+
+ <footer class="footer-section">
+   <div class="container-footer">
+    <div class="column-container-footer">
+     <a href="./" rel="noreferrer noopener" class="logo-footer"><span class="logo-web-font">web</span><span class="logo-studio-font-bright">studio</span></a>
+     <p class="footer-text">
+      Increase the flow of customers and 
+      sales for your business with digital 
+      marketing & growth solutions.
+     </p>
+    </div>
+    <div class="column-container-footer">
+     <p class="social-footer-font">Social media</p>
+     <div class="wrapper-social-footer-icon">
+      <ul>
+       <li class="social-footer-icon-element">
+        <div class="circle-footer">
+          <svg class="icon-footer" width="24" height="24" viewbox="0 0 24 24">
+           <use href="./images/icons.svg#icon-instagram-2-1"></use>
+          </svg>
+        </div>
+       </li>
+       <li class="social-footer-icon-element">
+        <div class="circle-footer">
+          <svg class="icon-footer" width="24" height="24" viewbox="0 0 24 24">
+           <use href="./images/icons.svg#icon-twitter-1-1"></use>
+          </svg>
+        </div>
+       </li>
+       <li class="social-footer-icon-element">
+        <div class="circle-footer">
+          <svg class="icon-footer" width="24" height="24" viewbox="0 0 24 24">
+           <use href="./images/icons.svg#icon-facebook-1-1"></use>
+          </svg>
+        </div>
+       </li>
+       <li class="social-footer-icon-element">
+        <div class="circle-footer">
+          <svg class="icon-footer" width="24" height="24" viewbox="0 0 24 24">
+           <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+          </svg>
+        </div>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+ </footer>
+ 
+ <script src="./js/modal.js"></script>
+</body>
+</html>
